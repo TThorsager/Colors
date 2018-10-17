@@ -41,19 +41,19 @@
 		5D4BA0102159439E00009376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D4BA0182159442200009376 /* ColorShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorShakeViewController.swift; sourceTree = "<group>"; };
 		5D4BA01A2159442E00009376 /* ColorSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectViewController.swift; sourceTree = "<group>"; };
-		5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Electronic_Chime.mp3; path = ../../../Downloads/Electronic_Chime.mp3; sourceTree = "<group>"; };
-		5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Robot_blip_2.mp3; path = ../../../Downloads/Robot_blip_2.mp3; sourceTree = "<group>"; };
-		5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Robot_blip.mp3; path = ../../../Downloads/Robot_blip.mp3; sourceTree = "<group>"; };
-		5DDC64992174853A00B85EAD /* bensound-smile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-smile.mp3"; path = "../../../Downloads/bensound-smile.mp3"; sourceTree = "<group>"; };
-		5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "bensound-buddy.mp3"; path = "../../../Downloads/bensound-buddy.mp3"; sourceTree = "<group>"; };
+		5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Electronic_Chime.mp3; sourceTree = "<group>"; };
+		5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Robot_blip_2.mp3; sourceTree = "<group>"; };
+		5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Robot_blip.mp3; sourceTree = "<group>"; };
+		5DDC64992174853A00B85EAD /* bensound-smile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-smile.mp3"; sourceTree = "<group>"; };
+		5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-buddy.mp3"; sourceTree = "<group>"; };
 		5DF5A48721745E0E00B99158 /* ColorXylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorXylophoneViewController.swift; sourceTree = "<group>"; };
-		5DF5A49721746CED00B99158 /* d6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = d6.mp3; path = ../../../Downloads/d6.mp3; sourceTree = "<group>"; };
-		5DF5A49821746CED00B99158 /* c7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = c7.mp3; path = ../../../Downloads/c7.mp3; sourceTree = "<group>"; };
-		5DF5A49921746CED00B99158 /* e6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = e6.mp3; path = ../../../Downloads/e6.mp3; sourceTree = "<group>"; };
-		5DF5A49A21746CED00B99158 /* f6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = f6.mp3; path = ../../../Downloads/f6.mp3; sourceTree = "<group>"; };
-		5DF5A49B21746CED00B99158 /* g6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = g6.mp3; path = ../../../Downloads/g6.mp3; sourceTree = "<group>"; };
-		5DF5A49C21746CED00B99158 /* a6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = a6.mp3; path = ../../../Downloads/a6.mp3; sourceTree = "<group>"; };
-		5DF5A49D21746CED00B99158 /* b6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = b6.mp3; path = ../../../Downloads/b6.mp3; sourceTree = "<group>"; };
+		5DF5A49721746CED00B99158 /* d6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d6.mp3; sourceTree = "<group>"; };
+		5DF5A49821746CED00B99158 /* c7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = c7.mp3; sourceTree = "<group>"; };
+		5DF5A49921746CED00B99158 /* e6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = e6.mp3; sourceTree = "<group>"; };
+		5DF5A49A21746CED00B99158 /* f6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = f6.mp3; sourceTree = "<group>"; };
+		5DF5A49B21746CED00B99158 /* g6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g6.mp3; sourceTree = "<group>"; };
+		5DF5A49C21746CED00B99158 /* a6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a6.mp3; sourceTree = "<group>"; };
+		5DF5A49D21746CED00B99158 /* b6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b6.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D3781A721776115002B624B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */,
+				5DDC64992174853A00B85EAD /* bensound-smile.mp3 */,
+				5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */,
+				5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */,
+				5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */,
+				5DF5A49C21746CED00B99158 /* a6.mp3 */,
+				5DF5A49D21746CED00B99158 /* b6.mp3 */,
+				5DF5A49821746CED00B99158 /* c7.mp3 */,
+				5DF5A49721746CED00B99158 /* d6.mp3 */,
+				5DF5A49921746CED00B99158 /* e6.mp3 */,
+				5DF5A49A21746CED00B99158 /* f6.mp3 */,
+				5DF5A49B21746CED00B99158 /* g6.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		5D4B9FFA2159439C00009376 = {
 			isa = PBXGroup;
 			children = (
@@ -95,18 +114,7 @@
 				5D4BA00A2159439C00009376 /* Main.storyboard */,
 				5D4BA00F2159439E00009376 /* LaunchScreen.storyboard */,
 				5D4BA00D2159439E00009376 /* Assets.xcassets */,
-				5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */,
-				5DDC64992174853A00B85EAD /* bensound-smile.mp3 */,
-				5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */,
-				5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */,
-				5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */,
-				5DF5A49C21746CED00B99158 /* a6.mp3 */,
-				5DF5A49D21746CED00B99158 /* b6.mp3 */,
-				5DF5A49821746CED00B99158 /* c7.mp3 */,
-				5DF5A49721746CED00B99158 /* d6.mp3 */,
-				5DF5A49921746CED00B99158 /* e6.mp3 */,
-				5DF5A49A21746CED00B99158 /* f6.mp3 */,
-				5DF5A49B21746CED00B99158 /* g6.mp3 */,
+				5D3781A721776115002B624B /* Sounds */,
 				5D3781A521775D24002B624B /* Info.plist */,
 			);
 			path = Colors;
