@@ -14,22 +14,26 @@ class ColorSelectViewController: UIViewController {
     var soundPlayer = AVAudioPlayer()
 
     @IBOutlet weak var colorSelectImageView: UIImageView!
+    @IBOutlet weak var guideLabel: UILabel!
     
     
     @IBAction func greenButtonTapped(_ sender: Any) {
         colorSelectImageView.image = UIImage(named: "green.png")
         greenSound()
+        guideLabel.text = ""
     }
     
     
     @IBAction func purpleButtonTapped(_ sender: Any) {
         colorSelectImageView.image = UIImage(named: "purple.png")
         purpleSound()
+        guideLabel.text = ""
     }
     
     @IBAction func orangeButtonTapped(_ sender: Any) {
         colorSelectImageView.image = UIImage(named: "orange.png")
         orangeSound()
+        guideLabel.text = ""
     }
     
     let color = [
@@ -42,7 +46,7 @@ class ColorSelectViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         colorSelectImageView.image = UIImage(named: selectRandomColor())
-        
+        guideLabel.text = "Tap a button to change the color"
     }
     
     

@@ -16,6 +16,7 @@ class ColorSwapViewController: UIViewController {
     var songPlayer : AVAudioPlayer!
     
     @IBOutlet weak var colorSwapImageView: UIImageView!
+    @IBOutlet weak var guideLabel: UILabel!
     
     
     @IBAction func colorSwapButtonTapped(_ sender: Any) {
@@ -24,7 +25,6 @@ class ColorSwapViewController: UIViewController {
     
     let color = [
         "blue",
-        "brown",
         "green",
         "orange",
         "purple",
@@ -38,14 +38,15 @@ class ColorSwapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         selectRandomColor()
-        
+        guideLabel.text = "Tap the screen to change the color"
         playBackgroundMusic()
     }
     
     func selectRandomColor() {
-        randomColor = Int.random(in: 0 ... 7)
+        randomColor = Int.random(in: 0 ... 6)
         colorSwapImageView.image = UIImage(named:color[randomColor])
         playSound()
+        guideLabel.text = ""
         print("-->Color Swapped<--")
     }
     

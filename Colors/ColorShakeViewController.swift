@@ -15,6 +15,7 @@ class ColorShakeViewController: UIViewController {
 
     
     @IBOutlet weak var colorShakeImageView: UIImageView!
+    @IBOutlet weak var guideLabel: UILabel!
     
     var soundPlayer = AVAudioPlayer()
     
@@ -31,7 +32,7 @@ class ColorShakeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         colorShakeImageView.image = UIImage(named: selectRandomColor())
-        
+        guideLabel.text = "Shake the phone to change the color"
         let path = Bundle.main.path(forResource: "bensound-buddy", ofType: ".mp3")
         if let realPath = path {
             let soundURL = URL.init(fileURLWithPath: realPath)
@@ -52,7 +53,7 @@ class ColorShakeViewController: UIViewController {
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         colorShakeImageView.image = UIImage(named: selectRandomColor())
         print("-->Shaked<--")
-        
+        guideLabel.text = ""
     }
     
 

@@ -26,6 +26,12 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake the phone to change the color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cws-X6-v6b">
+                                <rect key="frame" x="31.5" y="321.5" width="312" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -35,8 +41,10 @@
                             <constraint firstAttribute="bottom" secondItem="Ary-Zt-Aeh" secondAttribute="bottom" id="Jhz-7y-2ug"/>
                             <constraint firstItem="Ary-Zt-Aeh" firstAttribute="leading" secondItem="25j-Qo-6zz" secondAttribute="leading" id="Uh8-Jp-DDw"/>
                             <constraint firstItem="25j-Qo-6zz" firstAttribute="bottom" secondItem="2h2-LK-eAM" secondAttribute="bottom" constant="20" id="dGk-yR-U64"/>
+                            <constraint firstItem="cws-X6-v6b" firstAttribute="centerY" secondItem="q5W-As-Bjt" secondAttribute="centerY" id="dNQ-Uv-tCP"/>
                             <constraint firstItem="Ary-Zt-Aeh" firstAttribute="top" secondItem="25j-Qo-6zz" secondAttribute="top" id="hqN-Fb-goS"/>
                             <constraint firstItem="2h2-LK-eAM" firstAttribute="centerX" secondItem="q5W-As-Bjt" secondAttribute="centerX" id="k23-7E-irq"/>
+                            <constraint firstItem="cws-X6-v6b" firstAttribute="centerX" secondItem="q5W-As-Bjt" secondAttribute="centerX" id="xBp-wN-4XI"/>
                             <constraint firstItem="Ary-Zt-Aeh" firstAttribute="leading" secondItem="25j-Qo-6zz" secondAttribute="leading" id="yzv-aY-0BU"/>
                             <constraint firstItem="2h2-LK-eAM" firstAttribute="top" secondItem="25j-Qo-6zz" secondAttribute="top" constant="562" id="zZT-2F-UEC"/>
                         </constraints>
@@ -44,6 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="colorShakeImageView" destination="Ary-Zt-Aeh" id="uyW-vb-KgF"/>
+                        <outlet property="guideLabel" destination="cws-X6-v6b" id="qYY-iE-M4U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPR-NR-TmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -298,12 +307,12 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jYv-rB-Etr">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4F5-eq-thw">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <connections>
-                                    <action selector="colorSwapButtonTapped:" destination="dAO-ZX-7af" eventType="touchUpInside" id="tDa-cL-joZ"/>
-                                </connections>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the screen to change the color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLH-C9-60Z">
+                                <rect key="frame" x="41" y="321.5" width="293" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music: Smile from Bensound.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvg-Jl-1VH">
                                 <rect key="frame" x="59.5" y="626" width="256" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -316,6 +325,12 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4F5-eq-thw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <connections>
+                                    <action selector="colorSwapButtonTapped:" destination="dAO-ZX-7af" eventType="touchUpInside" id="tDa-cL-joZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -331,11 +346,14 @@
                             <constraint firstItem="4F5-eq-thw" firstAttribute="top" secondItem="Bpv-Cc-pZL" secondAttribute="top" id="dBV-ZB-5Lx"/>
                             <constraint firstItem="Bpv-Cc-pZL" firstAttribute="bottom" secondItem="jvg-Jl-1VH" secondAttribute="bottom" constant="20" id="f7c-1s-JZ6"/>
                             <constraint firstItem="4F5-eq-thw" firstAttribute="trailing" secondItem="Bpv-Cc-pZL" secondAttribute="trailing" id="iO9-BC-9Ot"/>
+                            <constraint firstItem="jLH-C9-60Z" firstAttribute="centerY" secondItem="sWB-Nc-wed" secondAttribute="centerY" id="kVc-Gt-DyF"/>
+                            <constraint firstItem="jLH-C9-60Z" firstAttribute="centerX" secondItem="sWB-Nc-wed" secondAttribute="centerX" id="v2r-PM-kLN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bpv-Cc-pZL"/>
                     </view>
                     <connections>
                         <outlet property="colorSwapImageView" destination="jYv-rB-Etr" id="OsO-AP-zVt"/>
+                        <outlet property="guideLabel" destination="jLH-C9-60Z" id="B13-VT-iYp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iWJ-2P-DWm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -392,10 +410,18 @@
                                     <action selector="orangeButtonTapped:" destination="tRi-g2-q66" eventType="touchUpInside" id="21k-g3-uPk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap a button to change the color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zsi-fB-sKZ">
+                                <rect key="frame" x="50.5" y="321.5" width="274" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="HQT-xR-i7y" secondAttribute="trailing" id="3ls-N7-804"/>
+                            <constraint firstItem="zsi-fB-sKZ" firstAttribute="centerY" secondItem="F6i-DP-k5p" secondAttribute="centerY" id="5ng-qj-UAh"/>
+                            <constraint firstItem="zsi-fB-sKZ" firstAttribute="centerX" secondItem="F6i-DP-k5p" secondAttribute="centerX" id="8R6-LH-waS"/>
                             <constraint firstItem="unz-Ps-S0a" firstAttribute="leading" secondItem="F6i-DP-k5p" secondAttribute="leadingMargin" id="9C9-Hi-OHl"/>
                             <constraint firstItem="HQT-xR-i7y" firstAttribute="top" secondItem="Zk4-q0-X2I" secondAttribute="top" id="EPK-to-Xzq"/>
                             <constraint firstItem="Zk4-q0-X2I" firstAttribute="bottom" secondItem="unz-Ps-S0a" secondAttribute="bottom" constant="49" id="GYS-OG-fYX"/>
@@ -413,6 +439,7 @@
                     </view>
                     <connections>
                         <outlet property="colorSelectImageView" destination="HQT-xR-i7y" id="ki3-Ar-eVT"/>
+                        <outlet property="guideLabel" destination="zsi-fB-sKZ" id="1JN-ba-DlE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msn-h0-yrm" userLabel="First Responder" sceneMemberID="firstResponder"/>
