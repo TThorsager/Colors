@@ -30,13 +30,13 @@ class ColorXylophoneViewController: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         guideLabel.text = "Tap a button to change the color"
         
-        greenKey.layer.cornerRadius = 20
-        tealKey.layer.cornerRadius = 20
-        blueKey.layer.cornerRadius = 20
-        purpleKey.layer.cornerRadius = 20
-        redKey.layer.cornerRadius = 20
-        orangeKey.layer.cornerRadius = 20
-        yellowKey.layer.cornerRadius = 20
+        greenKey.applyButtonDesign()
+        tealKey.applyButtonDesign()
+        blueKey.applyButtonDesign()
+        purpleKey.applyButtonDesign()
+        redKey.applyButtonDesign()
+        orangeKey.applyButtonDesign()
+        yellowKey.applyButtonDesign()
 
     }
     
@@ -65,14 +65,7 @@ class ColorXylophoneViewController: UIViewController, AVAudioPlayerDelegate {
             view.layer.backgroundColor = #colorLiteral(red: 0.8980392157, green: 0.5725490196, blue: 0.3529411765, alpha: 1)
         } else if sender.tag == 7 {
             view.layer.backgroundColor = #colorLiteral(red: 0.8862745098, green: 0.8862745098, blue: 0.2235294118, alpha: 1)
-        } 
-        
-        
-        
-        
-        
-        
-        
+        }
     }
     
     func playSound() {
@@ -85,16 +78,17 @@ class ColorXylophoneViewController: UIViewController, AVAudioPlayerDelegate {
         }
         audioPlayer.play()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
+
+//extension UIButton {
+//    func applyButtonDesign() {
+//        self.layer.cornerRadius = 20
+//
+//        self.layer.shadowColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.25).cgColor
+//        self.layer.shadowOffset = CGSize(width: 0.0, height: 5.0)
+//        self.layer.shadowOpacity = 1
+//        self.layer.shadowRadius = 0
+//
+//    }
+//}

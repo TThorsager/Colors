@@ -18,13 +18,14 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        colorShakeButton.layer.cornerRadius = 30
-        colorSelectButton.layer.cornerRadius = 30
-        colorSwapButton.layer.cornerRadius = 30
-        colorPianoButton.layer.cornerRadius = 30
-
+        colorShakeButton.applyButtonDesign()
+        colorSelectButton.applyButtonDesign()
+        colorSwapButton.applyButtonDesign()
+        colorPianoButton.applyButtonDesign()
+        
+        
     }
-
-
 }
+
+
 
