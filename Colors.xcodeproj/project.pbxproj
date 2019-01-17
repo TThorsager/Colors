@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5D2C5D6421830F0500D8662E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2C5D6321830F0500D8662E /* Extensions.swift */; };
+		5D35353821BC71E70055E488 /* tractor.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D35353721BC71E70055E488 /* tractor.json */; };
 		5D4227972167B70500F93CFF /* ColorSwapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4227962167B70500F93CFF /* ColorSwapViewController.swift */; };
 		5D4BA0072159439C00009376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA0062159439C00009376 /* AppDelegate.swift */; };
 		5D4BA0092159439C00009376 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D4BA0082159439C00009376 /* MenuViewController.swift */; };
@@ -19,7 +20,13 @@
 		5D67FD18215A51FD00450D21 /* Electronic_Chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */; };
 		5D67FD19215A51FD00450D21 /* Robot_blip_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */; };
 		5D67FD1A215A51FD00450D21 /* Robot_blip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */; };
+		5DBA395921BD3634001E15F3 /* img_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA395521BD3634001E15F3 /* img_2.png */; };
+		5DBA395A21BD3634001E15F3 /* img_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA395621BD3634001E15F3 /* img_1.png */; };
+		5DBA395B21BD3634001E15F3 /* img_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA395721BD3634001E15F3 /* img_0.png */; };
+		5DBA396121BD370A001E15F3 /* img_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DBA396021BD370A001E15F3 /* img_3.png */; };
 		5DDC649A2174853A00B85EAD /* bensound-smile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DDC64992174853A00B85EAD /* bensound-smile.mp3 */; };
+		5DDEB9242199824F00594BBC /* TractorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDEB9232199824F00594BBC /* TractorViewController.swift */; };
+		5DF44DA121998EB500B6E55A /* bensound-ukulele.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF44DA021998EB500B6E55A /* bensound-ukulele.mp3 */; };
 		5DF55AB62159801A00A6953F /* bensound-buddy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */; };
 		5DF5A48821745E0E00B99158 /* ColorXylophoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF5A48721745E0E00B99158 /* ColorXylophoneViewController.swift */; };
 		5DF5A49E21746CED00B99158 /* d6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A49721746CED00B99158 /* d6.mp3 */; };
@@ -29,10 +36,12 @@
 		5DF5A4A221746CED00B99158 /* g6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A49B21746CED00B99158 /* g6.mp3 */; };
 		5DF5A4A321746CED00B99158 /* a6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A49C21746CED00B99158 /* a6.mp3 */; };
 		5DF5A4A421746CED00B99158 /* b6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DF5A49D21746CED00B99158 /* b6.mp3 */; };
+		640A8AE4EAFE839F55B8F608 /* Pods_Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB2E7C3298DDDCDBDF265E0 /* Pods_Colors.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D2C5D6321830F0500D8662E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5D35353721BC71E70055E488 /* tractor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tractor.json; sourceTree = "<group>"; };
 		5D3781A521775D24002B624B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../Downloads/Colors-master/Colors/Info.plist"; sourceTree = "<group>"; };
 		5D4227962167B70500F93CFF /* ColorSwapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwapViewController.swift; sourceTree = "<group>"; };
 		5D4BA0032159439C00009376 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +55,14 @@
 		5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Electronic_Chime.mp3; sourceTree = "<group>"; };
 		5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Robot_blip_2.mp3; sourceTree = "<group>"; };
 		5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Robot_blip.mp3; sourceTree = "<group>"; };
+		5DBA394321BD2C39001E15F3 /* Traktor.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Traktor.mp4; sourceTree = "<group>"; };
+		5DBA395521BD3634001E15F3 /* img_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_2.png; sourceTree = "<group>"; };
+		5DBA395621BD3634001E15F3 /* img_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_1.png; sourceTree = "<group>"; };
+		5DBA395721BD3634001E15F3 /* img_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_0.png; sourceTree = "<group>"; };
+		5DBA396021BD370A001E15F3 /* img_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_3.png; sourceTree = "<group>"; };
 		5DDC64992174853A00B85EAD /* bensound-smile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-smile.mp3"; sourceTree = "<group>"; };
+		5DDEB9232199824F00594BBC /* TractorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TractorViewController.swift; sourceTree = "<group>"; };
+		5DF44DA021998EB500B6E55A /* bensound-ukulele.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-ukulele.mp3"; sourceTree = "<group>"; };
 		5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bensound-buddy.mp3"; sourceTree = "<group>"; };
 		5DF5A48721745E0E00B99158 /* ColorXylophoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorXylophoneViewController.swift; sourceTree = "<group>"; };
 		5DF5A49721746CED00B99158 /* d6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = d6.mp3; sourceTree = "<group>"; };
@@ -56,6 +72,9 @@
 		5DF5A49B21746CED00B99158 /* g6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = g6.mp3; sourceTree = "<group>"; };
 		5DF5A49C21746CED00B99158 /* a6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a6.mp3; sourceTree = "<group>"; };
 		5DF5A49D21746CED00B99158 /* b6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = b6.mp3; sourceTree = "<group>"; };
+		ACD7030EDA812D110724D937 /* Pods-Colors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.debug.xcconfig"; sourceTree = "<group>"; };
+		BBB2E7C3298DDDCDBDF265E0 /* Pods_Colors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Colors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5C1019523E7412345EE6EE6 /* Pods-Colors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Colors.release.xcconfig"; path = "Pods/Target Support Files/Pods-Colors/Pods-Colors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				640A8AE4EAFE839F55B8F608 /* Pods_Colors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B4929EF597037AAECA921F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBB2E7C3298DDDCDBDF265E0 /* Pods_Colors.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5D3781A721776115002B624B /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
 				5DF55AB52159801A00A6953F /* bensound-buddy.mp3 */,
 				5DDC64992174853A00B85EAD /* bensound-smile.mp3 */,
+				5DF44DA021998EB500B6E55A /* bensound-ukulele.mp3 */,
 				5D67FD15215A51FC00450D21 /* Electronic_Chime.mp3 */,
 				5D67FD16215A51FC00450D21 /* Robot_blip_2.mp3 */,
 				5D67FD17215A51FC00450D21 /* Robot_blip.mp3 */,
@@ -93,6 +122,8 @@
 			children = (
 				5D4BA0052159439C00009376 /* Colors */,
 				5D4BA0042159439C00009376 /* Products */,
+				7C4234B34A801A05EF9266FD /* Pods */,
+				05B4929EF597037AAECA921F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,20 +138,44 @@
 		5D4BA0052159439C00009376 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				5DF44DAD2199985500B6E55A /* Animation */,
 				5D4BA0062159439C00009376 /* AppDelegate.swift */,
 				5D4BA0082159439C00009376 /* MenuViewController.swift */,
 				5D4BA0182159442200009376 /* ColorShakeViewController.swift */,
 				5D4227962167B70500F93CFF /* ColorSwapViewController.swift */,
 				5D4BA01A2159442E00009376 /* ColorSelectViewController.swift */,
 				5DF5A48721745E0E00B99158 /* ColorXylophoneViewController.swift */,
+				5DDEB9232199824F00594BBC /* TractorViewController.swift */,
 				5D4BA00A2159439C00009376 /* Main.storyboard */,
 				5D4BA00F2159439E00009376 /* LaunchScreen.storyboard */,
 				5D2C5D6321830F0500D8662E /* Extensions.swift */,
 				5D4BA00D2159439E00009376 /* Assets.xcassets */,
+				5DBA394321BD2C39001E15F3 /* Traktor.mp4 */,
 				5D3781A721776115002B624B /* Sounds */,
 				5D3781A521775D24002B624B /* Info.plist */,
 			);
 			path = Colors;
+			sourceTree = "<group>";
+		};
+		5DF44DAD2199985500B6E55A /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5D35353721BC71E70055E488 /* tractor.json */,
+				5DBA395721BD3634001E15F3 /* img_0.png */,
+				5DBA395621BD3634001E15F3 /* img_1.png */,
+				5DBA395521BD3634001E15F3 /* img_2.png */,
+				5DBA396021BD370A001E15F3 /* img_3.png */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		7C4234B34A801A05EF9266FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACD7030EDA812D110724D937 /* Pods-Colors.debug.xcconfig */,
+				F5C1019523E7412345EE6EE6 /* Pods-Colors.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5D4BA0152159439E00009376 /* Build configuration list for PBXNativeTarget "Colors" */;
 			buildPhases = (
+				55BB8D0DBE9F27905D7FFF4B /* [CP] Check Pods Manifest.lock */,
 				5D4B9FFF2159439C00009376 /* Sources */,
 				5D4BA0002159439C00009376 /* Frameworks */,
 				5D4BA0012159439C00009376 /* Resources */,
+				0DBEA460E677842287B97E7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -183,23 +240,68 @@
 			files = (
 				5DF5A4A321746CED00B99158 /* a6.mp3 in Resources */,
 				5DF5A49F21746CED00B99158 /* c7.mp3 in Resources */,
+				5DBA395B21BD3634001E15F3 /* img_0.png in Resources */,
 				5D67FD1A215A51FD00450D21 /* Robot_blip.mp3 in Resources */,
 				5DF5A4A121746CED00B99158 /* f6.mp3 in Resources */,
+				5DF44DA121998EB500B6E55A /* bensound-ukulele.mp3 in Resources */,
 				5D67FD19215A51FD00450D21 /* Robot_blip_2.mp3 in Resources */,
+				5DBA395921BD3634001E15F3 /* img_2.png in Resources */,
 				5D67FD18215A51FD00450D21 /* Electronic_Chime.mp3 in Resources */,
 				5DF5A4A221746CED00B99158 /* g6.mp3 in Resources */,
 				5D4BA0112159439E00009376 /* LaunchScreen.storyboard in Resources */,
 				5DDC649A2174853A00B85EAD /* bensound-smile.mp3 in Resources */,
 				5DF5A4A421746CED00B99158 /* b6.mp3 in Resources */,
 				5DF5A4A021746CED00B99158 /* e6.mp3 in Resources */,
+				5DBA395A21BD3634001E15F3 /* img_1.png in Resources */,
 				5D4BA00E2159439E00009376 /* Assets.xcassets in Resources */,
 				5D4BA00C2159439C00009376 /* Main.storyboard in Resources */,
+				5D35353821BC71E70055E488 /* tractor.json in Resources */,
 				5DF5A49E21746CED00B99158 /* d6.mp3 in Resources */,
 				5DF55AB62159801A00A6953F /* bensound-buddy.mp3 in Resources */,
+				5DBA396121BD370A001E15F3 /* img_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBEA460E677842287B97E7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Colors/Pods-Colors-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Colors/Pods-Colors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55BB8D0DBE9F27905D7FFF4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Colors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5D4B9FFF2159439C00009376 /* Sources */ = {
@@ -209,6 +311,7 @@
 				5D4BA0192159442200009376 /* ColorShakeViewController.swift in Sources */,
 				5D4227972167B70500F93CFF /* ColorSwapViewController.swift in Sources */,
 				5D4BA01B2159442E00009376 /* ColorSelectViewController.swift in Sources */,
+				5DDEB9242199824F00594BBC /* TractorViewController.swift in Sources */,
 				5D4BA0092159439C00009376 /* MenuViewController.swift in Sources */,
 				5DF5A48821745E0E00B99158 /* ColorXylophoneViewController.swift in Sources */,
 				5D4BA0072159439C00009376 /* AppDelegate.swift in Sources */,
@@ -356,6 +459,7 @@
 		};
 		5D4BA0162159439E00009376 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACD7030EDA812D110724D937 /* Pods-Colors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -375,6 +479,7 @@
 		};
 		5D4BA0172159439E00009376 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C1019523E7412345EE6EE6 /* Pods-Colors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
